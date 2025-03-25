@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+legend {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+fieldset{
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="button"] {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 7px;
+    background-color: #db5555;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="button"]:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #f17d7d;
+}
